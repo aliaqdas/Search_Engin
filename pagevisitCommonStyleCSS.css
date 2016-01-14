@@ -1,0 +1,46 @@
+﻿
+body {
+margin: 0px; 
+padding: 0px; 
+font-family:Arial,Verdana;
+background-color:#fff;
+}
+.slider1_container {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 960px;
+    height: 480px;
+    background: #191919;
+    overflow:hidden;
+}
+
+.loading {
+position: absolute; 
+top: 0px; 
+left: 0px;
+}
+
+
+.new_1 {
+filter: alpha(opacity=70); 
+opacity:0.7; 
+position: absolute;
+ display: block;
+background-color: #000000; 
+top: 0px; 
+left: 0px;
+width: 100%;
+height:100%;
+}
+
+
+.new_2 {
+position: absolute; 
+display: block; 
+background: url(../img/loading.gif) no-repeat center center;
+top: 0px; 
+left: 0px;
+width: 100%;
+height:100%;
+}
